@@ -1,4 +1,4 @@
-# CodeIgniter 4 Application Starter
+# UAS PWEB 2 APLIKASI KASIR
 
 ## What is CodeIgniter?
 

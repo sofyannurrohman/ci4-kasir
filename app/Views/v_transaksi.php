@@ -10,7 +10,8 @@
                 <h3 class="card-title"><?= $subjudul; ?></h3>
                
                 <!-- /.card-tools -->
-              </div>
+              </div>  
+             
               <!-- /.card-header -->
               <div class="card-body">
               <table id="example1" class="table table-bordered table-striped">

@@ -103,7 +103,11 @@ function checkTime(i) {
               </div>
         </div>
       </div>
-      
+      <?php if(session()->getFlashData('pesan')): ?>
+                <div class="alert alert-success text-lg" style="width: 500px;" role="alert">
+                    <?= session()->getFlashData('pesan'); ?>
+                </div>
+                <?php endif; ?>
       <div class="col-lg-12">
         <div class="card card-primary card-outline">
           <div class="card-body">
